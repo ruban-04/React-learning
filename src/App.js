@@ -4,8 +4,10 @@ import ES6 from './components/ES6'
 import Form from './components/Form'
 import State from './components/State'
 import Counter from './components/Counter'
+import Events from './components/Events'
 
 function App() {
+  
   return (
   <BrowserRouter>
   <Routes>
@@ -13,6 +15,7 @@ function App() {
     <Route path='/createForm' element={<Form/>}/>
     <Route path='/createState' element={<State/>}/>
     <Route path='/updateState' element={<Counter/>}/>
+    <Route path='/updateEvents'element={<Events/>}/>
 
 
 
