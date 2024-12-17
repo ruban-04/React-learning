@@ -5,6 +5,8 @@ import Form from './components/Form'
 import State from './components/State'
 import Counter from './components/Counter'
 import Events from './components/Events'
+import List from './components/List'
+import Form1 from './components/Form1'
 
 function App() {
   
@@ -16,6 +18,8 @@ function App() {
     <Route path='/createState' element={<State/>}/>
     <Route path='/updateState' element={<Counter/>}/>
     <Route path='/updateEvents'element={<Events/>}/>
+    <Route path='/updateList'element={<List/>}/>
+    <Route path='/updateForm1' element={<Form1/>}/>
 
 
 
