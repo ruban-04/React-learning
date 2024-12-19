@@ -13,12 +13,13 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Error from './components/Error'
 import Dynamicroute from './components/Dynamicroute'
+import Child from './components/Child'
+import Props from './components/Props'
+import Style from './components/style'
 
 function App() {
-  
   return (
   <BrowserRouter>
-  <RouterLink/>
   <Routes>
     <Route path='/create' element={<ES6/>}/>
     <Route path='/createForm' element={<Form/>}/>
@@ -33,11 +34,9 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='*' element={<Error/>}/>
     <Route path='/Dynamicroute/:Name' element={<Dynamicroute/>}/>
-
-
-
-
-
+    <Route path='/child' element={<Child/>}/>
+    <Route path='/props' element={<Props/>}/>
+    <Route path='/colormodules' element={<Style/>}/>
   </Routes>
   </BrowserRouter>
   )
