@@ -16,6 +16,9 @@ import Dynamicroute from './components/Dynamicroute'
 import Child from './components/Child'
 import Props from './components/Props'
 import Style from './components/style'
+import Memo from './components/Memo'
+import Memo1 from './components/Memo1'
+import Memo2 from './components/Memo2'
 
 function App() {
   return (
@@ -37,6 +40,10 @@ function App() {
     <Route path='/child' element={<Child/>}/>
     <Route path='/props' element={<Props/>}/>
     <Route path='/colormodules' element={<Style/>}/>
+    <Route path='/updatememo' element={<Memo/>}/>
+    <Route path='/updatememo1' element={<Memo1/>}/>
+    <Route path='/updatememo2' element={<Memo2/>}/>
+
   </Routes>
   </BrowserRouter>
   )
