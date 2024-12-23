@@ -19,6 +19,7 @@ import Style from './components/style'
 import Memo from './components/Memo'
 import Memo1 from './components/Memo1'
 import Memo2 from './components/Memo2'
+import UseTask from './components/useTask'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
     <Route path='/updatememo' element={<Memo/>}/>
     <Route path='/updatememo1' element={<Memo1/>}/>
     <Route path='/updatememo2' element={<Memo2/>}/>
+    <Route path='/usetask' element={<UseTask/>}/>
 
   </Routes>
   </BrowserRouter>

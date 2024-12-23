@@ -18,3 +18,32 @@ code {
 .ex{
   color: red;
 }
+
+.fullForm{
+  background-color: cornflowerblue;
+  width: 340px;
+  margin: 25vh auto;  
+  padding:10px 30px; 
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.box{
+  width: 340px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.submit{
+  text-align: center;
+}
+.btn1{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}

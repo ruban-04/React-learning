@@ -17,6 +17,7 @@ function style() {
 
       {/* external */}
       <h4 className='ex'>It is easy to learn</h4>
+      
       {/* modules */}
       <h4 className={Style.external}>javascript is a multipage Application.</h4>
 
@@ -25,3 +26,9 @@ function style() {
 }
 
 export default style
+
+
+
+
+
+
