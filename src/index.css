@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  background-color: gainsboro;
 }
 
 code {
@@ -20,9 +22,9 @@ code {
 }
 
 .fullForm{
-  background-color: cornflowerblue;
+  background-color: rgb(147, 178, 237);
   width: 340px;
-  margin: 25vh auto;  
+  margin: 20vh auto;  
   padding:10px 30px; 
   border-radius: 10px;
   font-size: 18px;

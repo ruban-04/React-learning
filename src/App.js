@@ -20,6 +20,9 @@ import Memo from './components/Memo'
 import Memo1 from './components/Memo1'
 import Memo2 from './components/Memo2'
 import UseTask from './components/useTask'
+import UseEffect from './components/useEffect'
+
+
 
 function App() {
   return (
@@ -45,6 +48,7 @@ function App() {
     <Route path='/updatememo1' element={<Memo1/>}/>
     <Route path='/updatememo2' element={<Memo2/>}/>
     <Route path='/usetask' element={<UseTask/>}/>
+    <Route path='/useeffect' element={<UseEffect/>}/>
 
   </Routes>
   </BrowserRouter>
