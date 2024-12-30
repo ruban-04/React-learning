@@ -21,6 +21,8 @@ import Memo1 from './components/Memo1'
 import Memo2 from './components/Memo2'
 import UseTask from './components/useTask'
 import UseEffect from './components/useEffect'
+import LoginForm from './components/LoginForm'
+import RegisterForm from './components/RegisterForm'
 
 
 
@@ -49,6 +51,10 @@ function App() {
     <Route path='/updatememo2' element={<Memo2/>}/>
     <Route path='/usetask' element={<UseTask/>}/>
     <Route path='/useeffect' element={<UseEffect/>}/>
+    <Route path='/loginform' element={<LoginForm/>}/>
+    <Route path='/registerform' element={<RegisterForm/>}/>
+
+
 
   </Routes>
   </BrowserRouter>
