@@ -187,3 +187,26 @@ code {
   border: 2px solid rgb(233, 95, 54);
   outline: none;
 }
+.button{
+  display: inline-block;
+  
+  padding: 10px 15px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  background-color:rgb(222, 66, 19);
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+.button:hover{
+  background-color:rgb(170, 49, 13);
+  color: white;
+}
+.indata{
+  color:rgb(222, 66, 19);
+  margin-left: 21px;
+}

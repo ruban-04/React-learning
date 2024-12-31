@@ -23,6 +23,8 @@ import UseTask from './components/useTask'
 import UseEffect from './components/useEffect'
 import LoginForm from './components/LoginForm'
 import RegisterForm from './components/RegisterForm'
+import Formdata from './components/Formdata'
+import RegisterData from './components/RegisterData'
 
 
 
@@ -53,6 +55,9 @@ function App() {
     <Route path='/useeffect' element={<UseEffect/>}/>
     <Route path='/loginform' element={<LoginForm/>}/>
     <Route path='/registerform' element={<RegisterForm/>}/>
+    <Route path='/formdata' element={<Formdata/>}/>
+    <Route path='/registerdata' element={<RegisterData/>}/>
+
 
 
 
